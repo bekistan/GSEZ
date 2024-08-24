@@ -42,22 +42,25 @@ const Navbar: React.FC = () => {
   // Close all dropdowns when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+  
       if (
-        !event.target?.closest('.profile-dropdown') &&
-        !event.target?.closest('.involved-dropdown') &&
-        !event.target?.closest('.resource-dropdown')
+        !target.closest('.profile-dropdown') &&
+        !target.closest('.involved-dropdown') &&
+        !target.closest('.resource-dropdown')
       ) {
         setIsProfileDropdownOpen(false);
         setIsInvolvedDropdownOpen(false);
         setIsResourceDropdownOpen(false);
       }
     };
-
+  
     document.addEventListener('mousedown', handleClickOutside);
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
+  
 
   return (
     <nav className="absolute top-0 left-0 right-0 z-20 bg-transparent text-white p-4">
