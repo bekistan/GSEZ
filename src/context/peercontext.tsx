@@ -22,10 +22,12 @@ export const PeerProvider: React.FC<PeerProviderProps> = ({ children }) => {
   useEffect(() => {
     if (!user || peer) return;
 
+    // Connect to PeerJS Cloud Server
     const newPeer = new Peer({
-      host: 'localhost',
-      port: 9000,
-      path: '/peerjs',
+      host: '0.peerjs.com',
+      port: 443, // Use port 443 for HTTPS
+      secure: true, // Enable HTTPS
+      path: '/',
     });
 
     peerInstance = newPeer;
