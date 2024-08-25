@@ -11,7 +11,7 @@ const About = () => {
         </p>
       </header>
 
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-gray-900 mb-8 rounded-lg shadow-lg">
+      <section className="grid col-md lg:grid-cols-2 gap-8 bg-gray-900 mb-8 rounded-lg shadow-lg">
         <Image src="/image/ppl.jpg" alt="Our Team" width={600} height={500} className="w-full h-auto rounded-lg p-6" />
         <div className="flex flex-col justify-center">
           <h2 style={{ fontFamily: 'var(--font-merriweather)'}}  className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 mb-4">OUR TEAM</h2>
@@ -21,7 +21,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-gray-900 pl-5 mb-8 rounded-lg shadow-lg">
+      <section className="grid col-md lg:grid-cols-2 gap-8 bg-gray-900 pl-5 mb-8 rounded-lg shadow-lg">
         <div className="flex flex-col justify-center">
           <h2 style={{ fontFamily: 'var(--font-merriweather)'}}  className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 mb-4">OUR MISSION</h2>
           <p style={{ fontFamily: 'var(--font-poppins)'}}  className="text-base md:text-lg lg:text-xl text-gray-400">
@@ -33,7 +33,7 @@ const About = () => {
         <Image src="/image/mission.jpg" alt="Our Mission" width={600} height={500} className="w-full h-auto p-6 rounded-lg" />
       </section>
 
-      <section className="grid grid-cols-1 lg:grid-cols-2 bg-gray-900 gap-8 mb-8 rounded-lg shadow-lg">
+      <section className="grid col-md lg:grid-cols-2 bg-gray-900 gap-8 mb-8 rounded-lg shadow-lg">
         <Image src="/image/team.jpg" alt="Our vision" width={600} height={400} className="w-full h-auto p-6 rounded-lg" />
         <div className="flex flex-col justify-center">
           <h2 style={{ fontFamily: 'var(--font-merriweather)'}}  className="pt-5 text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 mb-4">OUR VISION</h2>
@@ -45,7 +45,7 @@ const About = () => {
         </div>
       </section>
       
-           <section className="grid grid-cols-1 lg:grid-cols-2 bg-gray-900 gap-8 mb-8 rounded-lg shadow-lg">
+           <section className="grid col-md lg:grid-cols-2 bg-gray-900 gap-8 mb-8 rounded-lg shadow-lg">
         <Image src="/image/team.jpg" alt="Our vision" width={600} height={500} className="w-full h-auto p-6 rounded-lg" />
         <div className="flex flex-col justify-center">
           <h2 style={{ fontFamily: 'var(--font-merriweather)'}}  className="pt-5 text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 mb-4">GOALS AND PURPOSE</h2>
