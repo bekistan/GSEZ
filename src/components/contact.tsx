@@ -92,26 +92,25 @@ const ContactUs: React.FC = () => {
           <div>
             <h2 className="text-2xl font-bold text-gray-100 mb-4">Visit Us</h2>
             <div className="w-full h-64 mb-4">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4504281186896!2d-122.41941518468197!3d37.77492927975851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808a0c7b61df%3A0x40670f5569d7a8!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1623430913840!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                allowFullScreen={false}
-                loading="lazy"
-                className="rounded-md shadow-lg"
-              ></iframe>
+             <iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7942.506135164366!2d39.25258726869155!3d8.63824922379685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1692716613059!5m2!1sen!2sus"
+  width="100%"
+  height="100%"
+  allowFullScreen={false}
+  loading="lazy"
+  className="rounded-md shadow-lg"
+></iframe>
+
             </div>
             <h2 className="text-2xl font-bold text-gray-100 mb-4">Connect with Us</h2>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-600 transition duration-300">
+              <a href="https://www.facebook.com/gadasez/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-600 transition duration-300">
                 <FaFacebook size={32} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-600 transition duration-300">
+              <a href="https://www.facebook.com/gadasez/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-600 transition duration-300">
                 <FaTwitter size={32} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-600 transition duration-300">
-                <FaLinkedin size={32} />
-              </a>
+            
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-600 transition duration-300">
                 <FaInstagram size={32} />
               </a>
@@ -123,18 +122,18 @@ const ContactUs: React.FC = () => {
           <div>
             <h2 className="text-2xl font-bold text-gray-100 mb-4">Office Address</h2>
             <p className="text-gray-300 text-lg">
-              1234 Street Name,<br />
-              City, State, Zip Code<br />
-              Country
+              Melka Adama sub city,<br />
+              Adama, Oromia, 1000<br />
+              Ethiopia
             </p>
           </div>
           <div>
             <h2 className="text-2xl font-bold text-gray-100 mb-4">Contact Information</h2>
             <p className="text-gray-300 text-lg mb-1">
-              <strong>Email:</strong> contact@gsez.com
+              <strong>Email:</strong> gsez9917@gmail.com
             </p>
             <p className="text-gray-300 text-lg">
-              <strong>Phone:</strong> +123-456-7890
+              <strong>Phone:</strong> +251933980130
             </p>
           </div>
         </div>
