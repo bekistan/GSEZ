@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import 'aframe';
 import 'aframe-extras';
 import image from '../../public/image/IMG20240528083728.jpg';
-import image1 from ../../public/image/IMG20240528083852.jpg';
+import image1 from '../../public/image/IMG20240528083852.jpg';
 import image2 from '../../public/image/IMG20240528083954.jpg';
 import image3 from '../../public/image/IMG20240528084129.jpg';
 import image4 from '../../public/image/IMG20240528084349.jpg';
