@@ -13,7 +13,7 @@ const About = () => {
 
       <section className="grid col-md lg:grid-cols-2 gap-8 bg-gray-900 mb-8 rounded-lg shadow-lg">
         <Image src="/image/ppl.jpg" alt="Our Team" width={600} height={500} className="w-full h-auto rounded-lg p-6" />
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col col-md pl-2 pr-2 justify-center">
           <h2 style={{ fontFamily: 'var(--font-merriweather)'}}  className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 mb-4">OUR TEAM</h2>
           <p style={{ fontFamily: 'var(--font-merriweather)'}}  className="text-base md:text-lg lg:text-xl text-gray-400">
           We aspire to be the model economic hub of Africa by 2062
@@ -22,7 +22,7 @@ const About = () => {
       </section>
 
       <section className="grid col-md lg:grid-cols-2 gap-8 bg-gray-900 pl-5 mb-8 rounded-lg shadow-lg">
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col col-md pl-2 pr-2 justify-center">
           <h2 style={{ fontFamily: 'var(--font-merriweather)'}}  className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 mb-4">OUR MISSION</h2>
           <p style={{ fontFamily: 'var(--font-poppins)'}}  className="text-base md:text-lg lg:text-xl text-gray-400">
           Providing serviced land to attract investment for industry and commercial hub to generate 
@@ -35,7 +35,7 @@ const About = () => {
 
       <section className="grid col-md lg:grid-cols-2 bg-gray-900 gap-8 mb-8 rounded-lg shadow-lg">
         <Image src="/image/team.jpg" alt="Our vision" width={600} height={400} className="w-full h-auto p-6 rounded-lg" />
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col col-md pl-2 pr-2 justify-center">
           <h2 style={{ fontFamily: 'var(--font-merriweather)'}}  className="pt-5 text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 mb-4">OUR VISION</h2>
           <p style={{ fontFamily: 'var(--font-poppins)'}}  className="pr-2 text-base md:text-lg lg:text-xl text-gray-400">
            To be the pioneer zone of reform and innovation and center of the economic development of
@@ -47,7 +47,7 @@ const About = () => {
       
            <section className="grid col-md lg:grid-cols-2 bg-gray-900 gap-8 mb-8 rounded-lg shadow-lg">
         <Image src="/image/team.jpg" alt="Our vision" width={600} height={500} className="w-full h-auto p-6 rounded-lg" />
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col col-md p;-2 pr-2 justify-center">
           <h2 style={{ fontFamily: 'var(--font-merriweather)'}}  className="pt-5 text-2xl md:text-3xl lg:text-4xl font-bold text-gray-300 mb-4">GOALS AND PURPOSE</h2>
           <p  style={{ fontFamily: 'var(--font-poppins)'}} className="pb-2 text-base md:text-lg lg:text-xl text-gray-400">
           The purposes of creating Special Economic Zones are to achieve the economic and social 
